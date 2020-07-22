@@ -1,0 +1,16 @@
+Git使用说明：
+1.自报家门
+$ git config –global user.name “your name”
+$ git config –global user.email “email@example.com”
+
+2.指定一个位置创建空的目录，里面的所有文件用于Git管理。
+先cd到想好的目录下 
+$ mkdir <文件名>     //make directory    创建文件夹
+$ cd <文件名>
+$ pwd   			//用于查看当前目录
+
+$ git init  			//创建Git仓库
+
+3.把文件添加到仓库   //文件夹需要放在所建Git版本库的目录
+$ git add <file name>
+
